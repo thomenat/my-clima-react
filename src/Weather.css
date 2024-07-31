@@ -45,8 +45,10 @@
     line-height: 64px;
 }
 
-.Weather img {
+.Weather canvas {
     margin-right: 10px;
+    margin-top: 5px;
+    display: inline;
 }
 
 .Weather .unit {
