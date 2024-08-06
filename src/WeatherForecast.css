@@ -1,9 +1,13 @@
 .WeatherForecast {
     text-align: center;
+    margin-top: 30px;
+    color: #FF6053;
 }
 
 .WeatherForecast-temp-min {
     opacity: 0.6;
     margin-left: 8px;
 }
+
+
 
