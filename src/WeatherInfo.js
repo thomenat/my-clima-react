@@ -22,7 +22,7 @@ export default function WeatherInfo(props) {
                 alt={props.data.iconDescription}
                 size={65}
                 />
-                < WeatherTemperature celsius={props.data.temperature} fahrenheit={Math.round((props.data.temperature * 9/5) + 32)}/>   
+                < WeatherTemperature celsius={props.data.temperature}/>   
            </div>
          </div>
          <div className="col-6">
@@ -38,5 +38,4 @@ export default function WeatherInfo(props) {
          </div>
         </div>
     </div>);
-
 }
