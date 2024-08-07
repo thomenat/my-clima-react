@@ -68,3 +68,13 @@
         color: white;
         background-color: #364364;
     }
+
+    @media (max-width: 768px) {
+
+        .Weather {
+            padding: 25px;
+            max-width: auto;
+        }
+
+      }
+      
